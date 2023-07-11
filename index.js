@@ -13,6 +13,24 @@ let obj = {
   timeStamp: timeStamp,
 };
 
+let driveIds = [];
+
+app.get('/image-download', async (req, res) => {
+  try {
+    // Download the images
+    for (let i = 0; i < driveIds.length; i++) {
+      const driveId = driveIds[i];
+      const response = await axios.get(`https://drive.google.com/uc?export=view&id=${driveId}`, { responseType: 'arraybuffer' });
+      const image = Buffer.from(response.data, 'binary').toString('base64');
+      obj[driveId] = image;
+    }
+    res.send('Images downloaded');
+  } catch (error) {
+    console.error('Error downloading images:', error);
+    res.status(500).send('Error downloading images');
+  }
+});
+
 app.get('/fetch-data', async (req, res) => {
   try {
     let isResponse = true;
@@ -24,7 +42,30 @@ app.get('/fetch-data', async (req, res) => {
       if (response.status !== 400) {
         // Extract the data from the response
         const data = response.data;
+
+        // Find images and add to the images list
+        data.forEach((item) => {
+          const id = item.driveId
+          if (id !== undefined && id !== '' && !driveIds.includes(id)) {
+            driveIds.push({
+              driveId: id,
+              fileName: item.fileName,
+            });
+          }
+        });
+        // console.log(data)
+
+        // Add the data to the object
         obj[data[0].sheetId] = data;
+
+        // Download the images
+        for (let i = 0; i < driveIds.length; i++) {
+          const driveId = driveIds[i];
+          const response = await axios.get(`https://drive.google.com/uc?export=view&id=${driveId}`, { responseType: 'arraybuffer' });
+          const image = Buffer.from(response.data, 'binary').toString('base64');
+          obj[driveId] = image;
+        }
+
       } else {
         isResponse = false;
         console.log('No response');
@@ -35,7 +76,9 @@ app.get('/fetch-data', async (req, res) => {
       // Save the data as a JSON file even if there was a 400 status
       fs.writeFileSync('data.json', JSON.stringify(obj, null, 2));
       console.log('No more data to fetch');
-      res.send(`Data fetched and saved as data.json ${timeStamp}`);
+      // Log the drive ids
+      console.log('drive ids:', driveIds)
+      res.send(`Data fetched and saved as data.json<br><br>Last rendering: ${timeStamp}`);
     } else {
       console.error('Error fetching data:', error);
       res.status(500).send('Error fetching data');
