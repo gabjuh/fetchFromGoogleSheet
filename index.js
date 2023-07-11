@@ -46,25 +46,26 @@ app.get('/fetch-data', async (req, res) => {
         // Find images and add to the images list
         data.forEach((item) => {
           const id = item.driveId
-          if (id !== undefined && id !== '' && !driveIds.includes(id)) {
+          if (id !== undefined && id !== '') {
+            // skip if already in the list
+            if (driveIds.find((driveId) => driveId.driveId === id)) return;	
             driveIds.push({
               driveId: id,
               fileName: item.fileName,
             });
           }
         });
-        // console.log(data)
 
         // Add the data to the object
         obj[data[0].sheetId] = data;
 
         // Download the images
-        for (let i = 0; i < driveIds.length; i++) {
-          const driveId = driveIds[i];
-          const response = await axios.get(`https://drive.google.com/uc?export=view&id=${driveId}`, { responseType: 'arraybuffer' });
-          const image = Buffer.from(response.data, 'binary').toString('base64');
-          obj[driveId] = image;
-        }
+        // for (let i = 0; i < driveIds.length; i++) {
+        //   const driveId = driveIds[i];
+        //   const response = await axios.get(`https://drive.google.com/uc?export=view&id=${driveId}`, { responseType: 'arraybuffer' });
+        //   const image = Buffer.from(response.data, 'binary').toString('base64');
+        //   obj[driveId] = image;
+        // }
 
       } else {
         isResponse = false;
@@ -74,10 +75,14 @@ app.get('/fetch-data', async (req, res) => {
   } catch (error) {
     if (error.response && error.response.status === 400) {
       // Save the data as a JSON file even if there was a 400 status
-      fs.writeFileSync('data.json', JSON.stringify(obj, null, 2));
       console.log('No more data to fetch');
-      // Log the drive ids
-      console.log('drive ids:', driveIds)
+
+      // Save the data as a JSON file
+      fs.writeFileSync('data.json', JSON.stringify(obj, null, 2));
+      
+      // Save the images as a JSON file
+      fs.writeFileSync('images.json', JSON.stringify(driveIds, null, 2));
+            
       res.send(`Data fetched and saved as data.json<br><br>Last rendering: ${timeStamp}`);
     } else {
       console.error('Error fetching data:', error);
