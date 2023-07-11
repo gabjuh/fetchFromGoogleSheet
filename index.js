@@ -1,13 +1,17 @@
+require('dotenv').config({patj: '/.env'});
 const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
 
 const app = express();
-const port = 3003; // Change this if needed
-const openSheetApiUrl = 'https://opensheet.vercel.app/';
-const tableId = '1ghHCdIe2HEsWZ67Mit9WqcsAZUr99s68a495Kn-D-VI';
+const port = process.env.PORT;
+const openSheetApiUrl = process.env.OPEN_SHEET_API_URL;
+const tableId = process.env.TABLE_ID;
+const timeStamp = new Date().toLocaleString('de-DE', { timeZone: 'Europe/Berlin' });
 
-let obj = {};
+let obj = {
+  timeStamp: timeStamp,
+};
 
 app.get('/fetch-data', async (req, res) => {
   try {
@@ -26,17 +30,12 @@ app.get('/fetch-data', async (req, res) => {
         console.log('No response');
       }
     }
-
-    // Save the data as a JSON file
-    fs.writeFileSync('data.json', JSON.stringify(obj, null, 2));
-
-    res.send('Data fetched and saved as data.json');
   } catch (error) {
     if (error.response && error.response.status === 400) {
       // Save the data as a JSON file even if there was a 400 status
       fs.writeFileSync('data.json', JSON.stringify(obj, null, 2));
       console.log('No more data to fetch');
-      res.send('Data fetched and saved as data.json');
+      res.send(`Data fetched and saved as data.json ${timeStamp}`);
     } else {
       console.error('Error fetching data:', error);
       res.status(500).send('Error fetching data');
