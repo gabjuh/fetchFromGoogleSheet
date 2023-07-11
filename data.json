@@ -1,6 +1,1529 @@
-[
-  {
-    "pageTitle": "Home",
-    "widgets": "Hero1"
-  }
-]
+{
+  "home": [
+    {
+      "sheetId": "home",
+      "pageTitle": "Home",
+      "widgets": "Hero1"
+    }
+  ],
+  "hero": [
+    {
+      "sheetId": "hero",
+      "pageTitle": "Hero",
+      "driveId": "1En33PhpCjDoxYl0mfFsX_lo4fRv-EwUt",
+      "imgAlt": "Portfolio Foto",
+      "imgLeft": "TRUE",
+      "text": "bla",
+      "question": "Reicht nicht?",
+      "buttonText": "Lesen Sie weiter!"
+    }
+  ],
+  "about": [
+    {
+      "sheetId": "about",
+      "pageTitle": "About me",
+      "driveId": "1-341klHhQTgpkAHZTImEINS1m3jyzT4K",
+      "imgAlt": "Portfolio Foto",
+      "imgLeft": "FALSE",
+      "text": "Born in Hungary, __Franciska Anna Hajdu__ discovered her love of the violin as a young child. From the age of 14, she regularly attended masterclasses in Hungary and all of Europe, taking lessons with *Zsolt Kalló*, *Katalin Kokas*, and *Lucia Krommer*. She went on to study modern violin with *Dr. Svikruha Márta* at the *Varga Tibor Institute for Musical Art* and completed her degree there in 2012. In addition, she received a Hungarian state scholarship that allowed her to spend a semester at the *Carl Maria von Weber University of Music* in Dresden. There, under the guidance of *Prof. John Holloway*, she took her first steps into the world of the baroque violin and historical performance practice...",
+      "textAlign": "auto",
+      "buttonText": "Read more!"
+    }
+  ],
+  "cv": [
+    {
+      "sheetId": "cv",
+      "pageTitle": "Curriculum Vitae",
+      "active": "1",
+      "id": "1",
+      "fileName": "",
+      "driveId": "1-341klHhQTgpkAHZTImEINS1m3jyzT4K",
+      "imgAlt": "Portfolio Foto",
+      "imgOnSide": "right",
+      "text": "Born in Hungary, __Franciska Anna Hajdu__ discovered her love of the violin as a young child. From the age of 14, she regularly attended masterclasses in Hungary and all of Europe, taking lessons with *Zsolt Kalló*, *Katalin Kokas*, and *Lucia Krommer*. She went on to study modern violin with *Dr. Svikruha Márta* at the *Varga Tibor Institute for Musical Art* and completed her degree there in 2012. In addition, she received a Hungarian state scholarship that allowed her to spend a semester at the *Carl Maria von Weber University of Music* in Dresden. There, under the guidance of *Prof. John Holloway*, she took her first steps into the world of the baroque violin and historical performance practice. She subsequently attended the International Summer Academy of the Mozarteum Salzburg (Prof. Thomas Albert and Prof. Hiro Kurasaki), Miszla Barokk (Mónika Tóth), and the Schwetzinger Hofmusik Academy (Midori Seiler and Jaap ter Linden). In October 2012, the young violinist began her studies with Veronika Skuplik at the University of the Arts in Bremen and graduated with a Master’s degree in baroque violin performance in 2019. ",
+      "buttonText": "go back"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "2",
+      "fileName": "",
+      "driveId": "1Zy6AnCTn0QWmr79Ig7dS5t36-vKBx_4_",
+      "imgAlt": "",
+      "imgOnSide": "left",
+      "text": "She has performed as a guest artist with early music specialists such as **L’Arpeggiata** (Christina Pluhar), la dolcezza (Veronika Skuplik), Ensemble Weser-Renaissance (Manfred Cordes), Concerto Palatino (Bruce Dickey), Concerto Foscari (Alon Sariel), and the Bremer Barockorchester (Néstor Cortés). Franciska Hajdu has been a member of the ensemble Los Temperamentos since 2013. With this group, she has toured through Latin America multiple times, performing in Mexico, Chile, Peru, and Bolivia."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "3",
+      "fileName": "",
+      "driveId": "1En33PhpCjDoxYl0mfFsX_lo4fRv-EwUt",
+      "imgAlt": "Foto mit der Geige",
+      "imgOnSide": "right",
+      "text": "The violin that she plays is generously provided by the Tesdorpf’sche Charitable Foundation."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "4",
+      "fileName": "",
+      "driveId": "1K7w807MCegkOtzFu1i8QQvWhOKU1-6Pw",
+      "imgAlt": "Foto mit Ensemble Prisma",
+      "imgOnSide": "left",
+      "text": "In the spring of 2015, she founded the ensemble PRISMA with her colleagues Elisabeth Champollion (recorder), Alon Sariel (lute), and Dávid Budai (viola da gamba). The quartet met with immediate success, winning first prize at the International H. I. F. Biber Competition in Austria and receiving the opportunity to spend three years in the “EEEmerging” program for young early music ensembles hosted by the Académie d’Ambronay in France. PRISMA has performed at many renowned music festivals, including the Mozart Festival in Würzburg, the York Early Music Festival, and the Wunderkammer Festival in Trieste, as well as for German (WDR), Austrian (ORF), and British (BBC) radio."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "5",
+      "fileName": "",
+      "driveId": "1CgR5GR_22k7woDOoymJ77dW3130wQhXW",
+      "imgAlt": "Foto mit Ensemble Volcania",
+      "imgOnSide": "right",
+      "text": "Franciska Hajdu is concertmaster of Ensemble Volcania (Elisabeth Champollion), a position she has held since the group’s inception in 2018."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "6",
+      "fileName": "",
+      "driveId": "1Zy6AnCTn0QWmr79Ig7dS5t36-vKBx_4_",
+      "imgAlt": "",
+      "imgOnSide": "left",
+      "text": "As an ensemble musician, she has performed in numerous international festivals, including the Utrecht Early Music Festival (NL), Tage Alter Musik Regensburg (DE), AMUZ Festival van Vlaanderen-Antwerpen (BE), Monteverdi Festival Cremona (IT), Südtirol Festival Merano (IT), Missiones de Chiquitos Festival de Musica Barroca (Bolívia), and the Valletta Baroque Festival (Malta)."
+    }
+  ],
+  "slider": [
+    {
+      "sheetId": "slider",
+      "pageTitle": "Images",
+      "active": "1",
+      "id": "1",
+      "driveId": "1-341klHhQTgpkAHZTImEINS1m3jyzT4K",
+      "imgAlt": "Portfolio Foto"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "2",
+      "driveId": "1Zy6AnCTn0QWmr79Ig7dS5t36-vKBx_4_",
+      "imgAlt": "Platzhalter Bild"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "3",
+      "driveId": "1En33PhpCjDoxYl0mfFsX_lo4fRv-EwUt",
+      "imgAlt": "Foto mit der Geige"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "4",
+      "driveId": "1K7w807MCegkOtzFu1i8QQvWhOKU1-6Pw",
+      "imgAlt": "Foto mit Ensemble Prisma"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "5",
+      "driveId": "1CgR5GR_22k7woDOoymJ77dW3130wQhXW",
+      "imgAlt": "Foto mit Ensemble Volcania"
+    }
+  ],
+  "videos": [
+    {
+      "sheetId": "videos",
+      "pageTitle": "Videos",
+      "active": "1",
+      "id": "1",
+      "youtubeId": "zux7M-IHPf0",
+      "title": "Bertali: Missa Redemptoris",
+      "band": "Concerto Palatino",
+      "bandLink": "http://www.concertopalatino.com/",
+      "description": "Festival Oude Muziek Utrecht, deel II"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "2",
+      "youtubeId": "gxLXNb1gOlM",
+      "title": "Samuel Scheidt (1587-1654) Sinfonia chromatica",
+      "band": "PRISMA",
+      "bandLink": "https://www.prisma-music.eu/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "3",
+      "youtubeId": "iXpOj4w1He0",
+      "title": "Salomone Rossi (1570-1630): Sonata in dialogo detta la Viena, Bergamasca",
+      "band": "PRISMA",
+      "bandLink": "https://www.prisma-music.eu/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "4",
+      "youtubeId": "qr0u_zImcww",
+      "title": "Athanasius Kircher(1602-1680): Tarantella",
+      "band": "PRISMA",
+      "bandLink": "https://www.prisma-music.eu/",
+      "description": "",
+      "quality": "low"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "5",
+      "youtubeId": "rqlLTJAOW6w",
+      "title": "Canario",
+      "band": "PRISMA",
+      "bandLink": "https://www.prisma-music.eu/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "6",
+      "youtubeId": "n-yOmp3fMZM",
+      "title": "Tarantella",
+      "band": "PRISMA",
+      "bandLink": "https://www.prisma-music.eu/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "7",
+      "youtubeId": "iXpOj4w1He0",
+      "title": "Tarquinio Merula (1595-1665): La Cattarina",
+      "band": "PRISMA",
+      "bandLink": "https://www.prisma-music.eu/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "8",
+      "youtubeId": "NWkKp28Fo_g",
+      "title": "Trailer Villa Vivaldi",
+      "band": "Ensemble Volcania",
+      "bandLink": "https://www.elisabethchampollion.de/projects/ensemble-volcania"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "9",
+      "youtubeId": "wt9GDm6m3CI",
+      "title": "Suite Martínez Compañón",
+      "band": "Los Temperamentos",
+      "bandLink": "https://www.lostemperamentos.de/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "10",
+      "youtubeId": "l3kPDqlW30Y",
+      "title": "Vivaldi RV 114 for strings and b.c.",
+      "band": "Ensemble Volcania",
+      "bandLink": "https://www.elisabethchampollion.de/projects/ensemble-volcania"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "11",
+      "youtubeId": "ZHg3XFzfx-U",
+      "title": "Claudio Monteverdi - Orfeo (LIVE 27 Oct 2019)",
+      "band": "Profeti Della Quinta & Friends",
+      "bandLink": "https://www.quintaprofeti.com/"
+    }
+  ],
+  "audio": [
+    {
+      "sheetId": "audio",
+      "pageTitle": "Discography",
+      "domain": "https://discography.franciskahajdu.de",
+      "active": "1",
+      "id": "1",
+      "fileName": "01-Los-Temperamentos-_-El-baxel-esta-en-la-playa_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600",
+      "label": "El-Galeon-CD-559x502.jpg",
+      "band": "Los Temperamentos",
+      "bandLink": "",
+      "description": "",
+      "year": "2015"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "2",
+      "fileName": "02-Los-Temperamentos-_-Su-la-cetra-amorosa_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "3",
+      "fileName": "03-Los-Temperamentos-_-Sinfonia-a-Violino-Violoncello-e-Basso-in-d-Moll_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "4",
+      "fileName": "04-Los-Temperamentos-_-De-Altamar-al-Amazonas-Improvisation_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "5",
+      "fileName": "05-Los-Temperamentos-_-Cachua-la-Serranita_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "6",
+      "fileName": "06-Los-Temperamentos-_-La-suave-melodia_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "7",
+      "fileName": "07-Los-Temperamentos-_-Tonada-el-Tuppamaro-de-Caxamara-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "8",
+      "fileName": "08-Los-Temperamentos-_-Tonada-la-Lata...-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "9",
+      "fileName": "09-Los-Temperamentos-_-Sonata-III-in-d-Moll-a-Violoncello-Solo-e-Basso-Continuo-Adagio_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "10",
+      "fileName": "10-Los-Temperamentos-_-Sonata-III-in-d-Moll-a-Violoncello-Solo-e-Basso-Continuo-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "11",
+      "fileName": "11-Los-Temperamentos-_-Sonata-III-in-d-Moll-a-Violoncello-Solo-e-Basso-Continuo-Adagio_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "12",
+      "fileName": "12-Los-Temperamentos-_-Sonata-III-in-d-Moll-a-Violoncello-Solo-e-Basso-Continuo-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "13",
+      "fileName": "13-Los-Temperamentos-_-Toccata-detta-La-Ramirez-Improvisation_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "14",
+      "fileName": "14-Los-Temperamentos-_-La-Petenera_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "15",
+      "fileName": "15-Los-Temperamentos-_-Folle-e-ben-che-si-crede_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "16",
+      "fileName": "16-Los-Temperamentos-_-Sonata-K-89-in-d-Moll-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "17",
+      "fileName": "17-Los-Temperamentos-_-Sonata-K-89-in-d-Moll-Grave_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "18",
+      "fileName": "18-Los-Temperamentos-_-El-Cortesano-de-Rodas-Improvisation_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "19",
+      "fileName": "19-Los-Temperamentos-_-Sonata-K-89-in-d-Moll-Allegro-Quasi-Tumbao_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "20",
+      "fileName": "20-Los-Temperamentos-_-Pastoreta-Ychepe-flauta-ohne-Satzbezeichnung_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "21",
+      "fileName": "21-Los-Temperamentos-_-Pastoreta-Ychepe-flauta-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "22",
+      "fileName": "22-Los-Temperamentos-_-Pastoreta-Ychepe-flauta-Adagio_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "23",
+      "fileName": "23-Los-Temperamentos-_-Pastoreta-Ychepe-flauta-ohne-Satzbezeichnung_sample.mp3",
+      "folderName": "los_temperamentos_el_galon",
+      "title": "El Galeón 1600"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "24",
+      "fileName": "01-Los-Temperamentos-_-Variationen-uber-La-Folia-Introduktion_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura",
+      "label": "Amor-Y-Locura-CD-559x502.jpg",
+      "band": "Los Temperamentos",
+      "bandLink": "",
+      "description": "",
+      "year": "2017"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "25",
+      "fileName": "02-Los-Temperamentos-_-Variationen-uber-La-Folia-Variationen-1-7_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "26",
+      "fileName": "03-Los-Temperamentos-_-Variationen-uber-La-Folia-Variationen-8-13_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "27",
+      "fileName": "04-Los-Temperamentos-_-Variationen-uber-La-Folia-Variationen-14-19_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "28",
+      "fileName": "05-Los-Temperamentos-_-Andante-aus-_Moro-per-Amore__sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "29",
+      "fileName": "06-Los-Temperamentos-_-Chi-non-mi-conosce_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "30",
+      "fileName": "07-Los-Temperamentos-_-Choro-de-Pazze_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "31",
+      "fileName": "08-Los-Temperamentos-_-Toccata-llamada-La-Draga-Improvisation_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "32",
+      "fileName": "09-Los-Temperamentos-_-Slow-Air_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "33",
+      "fileName": "10-Los-Temperamentos-_-Let-the-Dreadful-Engines-of-Eternal-Will-aus-_The-Mad-Lover-Suite__sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "34",
+      "fileName": "11-Los-Temperamentos-_-Sonata-IV-Spiritoso-Largo_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "35",
+      "fileName": "12-Los-Temperamentos-_-Sonata-IV-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "36",
+      "fileName": "13-Los-Temperamentos-_-Sonata-IV-Largo_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "37",
+      "fileName": "14-Los-Temperamentos-_-Sonata-IV-Allegro-spiccato_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "38",
+      "fileName": "15-Los-Temperamentos-_-Joropo-_Amor-y-Locura_-Improvisation_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "39",
+      "fileName": "16-Los-Temperamentos-_-La-Lloroncita_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "40",
+      "fileName": "17-Los-Temperamentos-_-Sonata-Fantasia-para-Dona-Mari-Adagio_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "41",
+      "fileName": "18-Los-Temperamentos-_-Sonata-Fantasia-para-Dona-Mari-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "42",
+      "fileName": "19-Los-Temperamentos-_-Sonata-Fantasia-para-Dona-Mari-Poco-Adagio_Poco-Allegro_Poco-Adagio_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "43",
+      "fileName": "20-Los-Temperamentos-_-Sonata-Fantasia-para-Dona-Mari-Allegro_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "44",
+      "fileName": "21-Los-Temperamentos-_-Yo-soy-la-Locura_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "45",
+      "fileName": "22-Los-Temperamentos-_-Tarantella-para-Don-Juan-de-Hamburgo-_Ay-Amor-Loco_-Improvisation__sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "46",
+      "fileName": "23-Los-Temperamentos-_-Antidotum-Tarantulae_sample.mp3",
+      "folderName": "los_temperamentos_amor",
+      "title": "Amor Y Locura"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "47",
+      "fileName": "01-PRISMA-_-Prelude-for-recorder_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons",
+      "label": "the_seasons.jpg",
+      "band": "PRISMA",
+      "bandLink": "",
+      "description": "",
+      "year": "2018"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "48",
+      "fileName": "02-PRISMA-_-Vestiva-i-colli_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "49",
+      "fileName": "03-PRISMA-_-Sonata-_E-tanto-tempo-hormai__sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "50",
+      "fileName": "04-PRISMA-_-Maritati-insieme-la-Gallina-el-Cucco-fanno-un-bel-concerto_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "51",
+      "fileName": "05-PRISMA-_-Ciaccona_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "52",
+      "fileName": "06-PRISMA-_-Prelude-for-violin-solo_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "53",
+      "fileName": "07-PRISMA-_-La-Luciminia-Contenta_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "54",
+      "fileName": "08-PRISMA-_-Sonata-settima_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "55",
+      "fileName": "09-PRISMA-_-Canario_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "56",
+      "fileName": "10-PRISMA-_-Prelude-for-lute-solo-UponLa-Mi-Re_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "57",
+      "fileName": "11-PRISMA-_-La-Cattarina_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "58",
+      "fileName": "12-PRISMA-_-Sonata-duodecima_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "59",
+      "fileName": "13-PRISMA-_-Passacalle_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "60",
+      "fileName": "14-PRISMA-_-Interlude-on-_Les-feuilles-mortes_-and-_La-Caravaggia__sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "61",
+      "fileName": "15-PRISMA-_-Tarantella_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "62",
+      "fileName": "16-PRISMA-_-Prelude-for-viola-da-gambe-based-on-_Pretirata__sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "63",
+      "fileName": "17-PRISMA-_-La-Suave-Melodia_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "64",
+      "fileName": "18-PRISMA-_-Sonata-a-due-canti_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "domain": "",
+      "active": "1",
+      "id": "65",
+      "fileName": "19-PRISMA-_-Mantovana_sample.mp3",
+      "folderName": "prisma_seasons",
+      "title": "The Seasons"
+    }
+  ],
+  "ensembles": [
+    {
+      "sheetId": "ensembles",
+      "pageTitle": "Instrumente",
+      "active": "1",
+      "id": "1",
+      "fileName": "IMG_20230601_093350_kicsi.jpg",
+      "driveId": "11aRVj2IEXQ5MeLs_1W1dmbbZRoaATo2y",
+      "imgAlt": "Consort Bass Viol, Zacharias Whitridge",
+      "imgOnSide": "right",
+      "text": "__Consort Bass__ nennt man typisch *englische Gamben*, mit gebogener Decke, lange Mensur und unumsponnene Darmsaiten. Das von Zachariah Whitridge, 2008 in West-Dean Colalge gebautes Instrument zeichnet sich durch sein majestätischen, dennoch beweglichen Klang aus. Mit 745 mm Mensur, und einem Marsyas-Kopf: er mag höchstens 415 Hz."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "2",
+      "fileName": "IMG_20230601_093600_kicsi.jpg",
+      "driveId": "1xAP3ubSRtitVr6nr8z5N-a7pbuujhhbw",
+      "imgAlt": "Consort Bass Viol, Arnaud Giral",
+      "imgOnSide": "left",
+      "text": "Eine ausgefallen schöne Arbeit von Arnaud Giral, die früher in den\n Händen von Francois Joubert-Caillet war. Die Gambe kam zu mir und mit \nmir nach Wien, wir haben John Butler für uns entdeckt. Er mag 440 Hz, auch umgestimmt werden, als große Lyra. Arnaud \nGiral, 2016, Bristol."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "3",
+      "fileName": "Lyren_03-kicsi.jpg",
+      "driveId": "1FyPTgMDNrSn4ALH885oifL-5oOSBhf2-",
+      "imgAlt": "Lyra Viol, Neil Hansford",
+      "imgOnSide": "right",
+      "text": "Die zwei wunderbaren Instrumente sind ein Lebenswerk, für mich ein Vorbild in mehreren Hinsichten. Zusammenarbeit, -leben und Liebe zweier Menschen sind in den Instrumenten, und man hört, dass sie am liebsten zusammen musizieren. Die beiden Instrumente zu spielen ist die größte Ehre, die mir in meinem Musikerleben zuteil wurde. Sie wurden von Neil Hansford in 1982 und ‘85 gebaut und meine Vermutung ist, dass die Lyra von Annette das erste in modernen Zeiten rekonstruierte Instrument seiner Art ist."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "4",
+      "fileName": "Geigenconsort_kicsi.jpg",
+      "driveId": "1XD8_HYdhYl2LSq_9IZYivK3dAtTbfrdz",
+      "imgAlt": "Geigenconsort",
+      "imgOnSide": "left",
+      "text": "Ein Consort von Violininstrumenten, die vom gleiche3n Erbauer stammen, ist heutzutage nicht üblich. Mein Consort entstand aus der Zusammenarbeit mit Ferenc Gáll (Ungarn), und führte zur Gründeg des Ensembles Geigenconsort Bremen. https://www.geigenconsortbremen.com/"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "5",
+      "fileName": "Bassgeige2_kicsi.jpg",
+      "driveId": "1bfuGNAQFYPDDZxZ270FrWeVSoBXzbQg5",
+      "imgAlt": "Krouchdaler Bassgeige",
+      "imgOnSide": "right",
+      "text": "Wie ein Instrument aus dem Museum abzuholen: so war es für mich. Immer wieder zwickte mich die freistehend ausgestelte Krouchdaler Bassgeige im Musikinstrumentenmuseum in Berlin. Und er ist tatsächlich dafür verantwortlich, dass das mein Geigenconsort nach alemannischen Vorbildern gebaut wurde. Seine Hülle wurde überdimensionalisiert genäht, als es zum Treffen kam, wurde das Instrument von der Hülle verschluckt, wie von einem Walfisch. Daher traf der Name: Jonas."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "6",
+      "fileName": "_MG_2826-kicsi2.jpg",
+      "driveId": "1iH846A6--7SDVE46gt5pL36zNq09IYYx",
+      "imgAlt": "Violone",
+      "imgOnSide": "left",
+      "text": "Denn es gehört zum Norden, zu Buxtehude und noch viel mehr: ein Violone in G. Das Instrument war seit dem späteren 16. bis weit in das 18. Jahrhundert DAS BASSINSTRUMENT für Ensembles, für die Kirche, Stütze für Chöre und Orchester, und als solches wesentlicher Bestandteil der norddeutschen Klanglandschaft. Was heißt es?!? Man hat einen akkustischen Bass-Verstärker, eine Kiste, die klingen kann."
+    }
+  ],
+  "projects": [
+    {
+      "sheetId": "projects",
+      "pageTitle": "Projekte",
+      "active": "1",
+      "id": "1",
+      "projectTitle": "Geigenconsort",
+      "mediaType": "video",
+      "youtubeId": "yLK4E6LgjPc",
+      "driveId": "",
+      "imgAlt": "",
+      "text": "2020 war das Jahr wo Wege neue Richtungen nahmen. Es entstand aus herforragende Kollegen eine Besetzung für mein Consort. Nachdem es endlich vier Instrumente vorhanden waren - der fünfte, groß Bassgeige noch nicht mal im Auftrag gewesen -, haben wir angefangen, das Repertoire durchzulesen, unsere eigene Profile zu erarbeiten, und ein Ensemble mit zusammengehörenden Geigen aufzubauen. Unsere Ergebnisse finden Sie unter: www.geigenconsortbremen.com. Seit 2019 reisen die Instrumente jeden Sommer nach Ungarn, wo sie mit ihren Geschwister - fast alle historische Geigen und Bratschen von Ferenc Gáll zusammen - und mit mir, als Dozent für Gambe und Improvisation, einen Kurs begleiten und für interessierte junge Musiker die Möglichkeit bieten (oft als erstes Mal im Leben) ein historisch gebautes Instrument im Hand zu halten. Die Transportkosten sind Jahr zu Jahr teurer und mit dem Wachsen des Consorts komplizierter. Hilfsangebote netten LeserInnen sind herzlichst wilkommen. "
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "2",
+      "projectTitle": "Cantus Modalis und underground-singen",
+      "mediaType": "video",
+      "youtubeId": "fkJfTyLT50E",
+      "driveId": "",
+      "imgAlt": "",
+      "text": "Sie stand mittig umkreist von menschen. Das Licht glitzerte an ihrem weißen Haar. Sie wehte mit ihrem Hand und sang tiefe und hohe Töne. Wo bin ich gelandet?!?          Das dachte ich, als ich Rebecca Stewart zum ersten Mal traf. Sie leitete einen Kurs in Halle an der Saale, Thema war Josquin. Zwar schwand mein Schreck nach dem genannten Einsing-Übung schnell, das Treffen mit dieser Gesangstradition war für mich prägend. Ich organisierte Jahren lang Treffen, wo Studenten, Interessierte aus Originalnotation sangen. Die Musik entfaltete sich in einer völlig neuen Weise, das Musizieren miteinander funktionierte sofort anders: so wie wir uns gegenseitig hörten. Intensiv ist es, die Musik aus weiße Mensuralnotation zu entziffern, aber noch Intensiver ist das Geschehen, wie die Klänge sich auf- oder zueinander sich aufbauen. Wenn es eine Phase kommt, wo ich diesem Praxis mehr Zeit und Energie wenden kann, will ich jeden einladen, zu hören und wundern."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "3",
+      "projectTitle": "Alfonso's Lyra",
+      "mediaType": "video",
+      "youtubeId": "wuR1wtbE8f4",
+      "driveId": "",
+      "imgAlt": "Lyra Viol, William Corkine, John Merro manuscript, Budai Dávid",
+      "text": "Seit 2011 bewundere ich ein komplett neue Welt: die englische __Lyra Viol__. Das Instrument ist oft von einer Gambe nicht oder kaum zu unterscheiden, jedoch ist es in manchen Fällen mit einem zusätzlichen Saitensatz versehen. Diese Saiten verlaufen in einem Tunnel, der unter dem Griffbrett, im Hals liegt, und werden auf einem Steg unter dem Saitenhalter befestigt. Sie sind aus Messing, und geben zusätzlichen Resonanz zu den sechs Spielsaiten. Das Repertoire ist in Tabulatur geschrieben, oft akkordisch-polyphon. Es sind zahlreiche alternative Stimmungen, die verschiedene Namen tragen, wie \"Leero-Way\" oder \"High-Harp-Way flat\". Die Erfindung dieser Art von Gambe geht zurück in die Elisabethanische Zeit, Alfonso Ferrabosco war unter den ersten Lyraspieler. Seine Sammlung von \"Lessons\" zählen zu den kompliziertesten und zugleich elegantesten Stücken, die für Lyra je geschrieben worden sind, die erfordern sowohl künstlerische als auch technische Meisterleistung. Nach eine lange Reihe von Versuchen spiele ich nun zwei außerordentlich schöne und feine Instrumente, gebaut von Neil Hansford. Sie inspirieren mein Auftrag für ein drittes, größeres Instrument, die im Laufe 2023 von Bram Peters gebaut werden soll."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "4",
+      "projectTitle": "Der Kapitän, Tobias Hume",
+      "mediaType": "",
+      "youtubeId": "",
+      "driveId": "",
+      "imgAlt": "",
+      "text": "Seit meinem vierzehnten Lebensjahr spiele ich die Musik von Tobias\n Hume. Sein Stil war für mich immer faszinierend, sehr persönlich und \nmenschlich. Er schrieb was er konnte, und stand auch dazu. Diese Haltung\n wurde mir Vorbildlich, denn der Mut eine Aussage zu treffen, einen \neigenen Akkord zu denken, schreiben, improvisieren ist unentbehrlich für\n die Musik. Hume zeigt mir: ein Apfel ist mehr, als keiner. Ein Gambist \nist mehr, als keiner. Zum Ostern 2022 entstand aus George Kirbys \nLamentation meine Bearbeitung, die das einfache Melodie mit \nvollstimmigen Begleitung versah."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "0",
+      "id": "5",
+      "projectTitle": "Darmsaiten und Marin Mersenne",
+      "mediaType": "",
+      "youtubeId": "",
+      "driveId": "",
+      "imgAlt": "",
+      "text": "Seitdem ich das erste Mal einen Violone mit Reindarmbesaitung gespielt habe, begeistert mich der Klang von den etwas dickeren Basssaiten. Schon im Studium bin ich auf Quellen aufmerksam geworden, die die Bespannung von Streichinstrumente beschreiben, und als neugieriger Student, habe ich die Methoden ausprobiert. Für meinen Staunen bekam ich deutlich stabilere Instrumente und oft größeren Klang.  Ich frage mich oft: warum spielen nicht alle Darmsaiten?!? Die Proportionen sind einfach zu rechnen, und wenn man auch noch das peinliche und langwierige Stimmen mitten im Konzert ersparen kann, hat man wirklich etwas gewonnen."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "0",
+      "id": "6",
+      "projectTitle": "Stimmen",
+      "mediaType": "",
+      "youtubeId": "",
+      "driveId": "",
+      "imgAlt": "",
+      "text": "Es soll gut UND schnell gestimmt werden. Nichts ist peinlicher, als gleich am Anfang des Konzerts sechs oder gar sieben Mal 20 Sekunden lang andauerndes herumdrehen. Und dann das noch öfters zu wiederholen. Wie trainiere ich meine Gambe zum sauber werden und sauber bleiben?"
+    }
+  ],
+  "concerts": [
+    {
+      "sheetId": "concerts",
+      "pageTitle": "Upcoming Concerts",
+      "active": "1",
+      "id": "1",
+      "title": "Bach's Bizarre Ensemble",
+      "category": "Concert",
+      "startDate": "24.02.2023",
+      "endDate": "",
+      "startTime": "19:00",
+      "location": "Laughter Hall, Vienna",
+      "locationLink": "",
+      "band": "The Bach Baboons",
+      "bandLink": "",
+      "description": "Join us for a wacky evening of Bach's baroque brilliance. Prepare for unexpected twists, as Bach's compositions take on a comically chaotic character. The audience might just burst into uncontrollable laughter!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "2",
+      "title": "Renaissance Rumble Ensemble",
+      "category": "Concert",
+      "startDate": "01.04.2023",
+      "endDate": "",
+      "startTime": "19:00",
+      "location": "Chateau de Folly, Paris",
+      "locationLink": "",
+      "band": "The Renaissance Rascals",
+      "bandLink": "https://goettinger-barockorchester.de/",
+      "description": "Step back in time to the Renaissance era and witness a musical showdown like no other. Our baroque violinist will engage in a delightful duel with a mischievous lute player, creating a harmonious clash of whimsical melodies."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "3",
+      "title": "Beethoven's Banquet Band",
+      "category": "Concert",
+      "startDate": "06.04.2023",
+      "endDate": "",
+      "startTime": "16:00",
+      "location": "Symphony Square, Berlin",
+      "locationLink": "",
+      "band": "Beethoven's Banquet Band",
+      "bandLink": "",
+      "description": "Beethoven's music may be solemn, but this concert adds a hilarious twist! Experience the legendary composer's works while savoring a musical feast. Violins may double as utensils, and the conductor might even serve soup with a baton!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "4",
+      "title": "Vivaldi's Vocal Jumble Ensemble",
+      "category": "Concert",
+      "startDate": "14.04.2023",
+      "endDate": "",
+      "startTime": "17:00",
+      "location": "Opera House, Milan",
+      "locationLink": "",
+      "band": "Vivaldi's Vocal Vagabonds",
+      "bandLink": "",
+      "description": "Brace yourself for Vivaldi's enchanting chaos! In this extraordinary performance, our violinist will challenge the singers to a fast-paced sing-off. The result? A cacophony of joyous melodies that will leave you in stitches!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "5",
+      "title": "Baroque Ballroom Brawl Ensemble",
+      "category": "Masterclass",
+      "startDate": "28.05.2023",
+      "endDate": "30.05.2023",
+      "startTime": "17:00",
+      "location": "Versailles Palace, Paris",
+      "locationLink": "",
+      "band": "The Baroque Brawlers",
+      "bandLink": "",
+      "description": "Witness a melodious melee as our violinist battles against a mischievous harpsichordist in the grand ballroom of Versailles. With swirling gowns and ornate wigs flying, this musical duel is sure to be a baroque spectacle to remember."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "6",
+      "title": "Mozart's Mirthful Masquerade Musicians",
+      "category": "Concert",
+      "startDate": "02.07.2023",
+      "endDate": "",
+      "startTime": "19:00",
+      "location": "Royal Albert Hall, London",
+      "locationLink": "",
+      "band": "Mozart's Masked Minstrels",
+      "bandLink": "",
+      "description": "Mozart's music takes center stage in an extravagant masquerade ball. Don your fanciest mask, enjoy the whimsical tunes, and be prepared for hilarious surprises—because tonight, even the statues might start dancing to the violin's melody!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "7",
+      "title": "Handel's Hilarity Orchestra",
+      "category": "Concert",
+      "startDate": "16.07.2023",
+      "endDate": "",
+      "startTime": "23:00",
+      "location": "The Palace of Fine Arts, San Francisco",
+      "locationLink": "",
+      "band": "Handel's Hilarity Orchestra",
+      "bandLink": "",
+      "description": "Handel's music will fill the air as our violinist navigates a maze of musical mischief. Watch out for unexpected tempo changes, instrument swaps, and comical dance moves. This concert promises laughter, surprises, and baroque brilliance!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "8",
+      "title": "Bach vs. Mozart: The Battle Royale Ensemble",
+      "category": "Concert",
+      "startDate": "27.07.2023",
+      "endDate": "",
+      "startTime": "11:00",
+      "location": "Concertgebouw, Amsterdam",
+      "locationLink": "",
+      "band": "The Bach vs. Mozart Duelists",
+      "bandLink": "",
+      "description": "Witness the ultimate showdown between two musical giants. Bach and Mozart will duel it out, not with swords, but with their extraordinary compositions. Who will triumph in this epic battle of baroque versus classical? Only the music can tell!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "9",
+      "title": "Renaissance Ragtime Revellers",
+      "category": "Masterclass",
+      "startDate": "31.07.2023",
+      "endDate": "04.08.2023",
+      "startTime": "20:00",
+      "location": "Teatro La Fenice, Venice",
+      "locationLink": "",
+      "band": "Renaissance Ragtime Revellers",
+      "bandLink": "",
+      "description": "It's time for a musical anachronism as our baroque violinist introduces ragtime to the Renaissance era. Marvel at the curious combination of lively syncopation and period costumes. This concert promises foot-tapping rhythms and historical hilarity!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "10",
+      "title": "Beethoven's Banana Symphony",
+      "category": "Concert",
+      "startDate": "11.11.2023",
+      "endDate": "",
+      "startTime": "17:00",
+      "location": "Carnegie Hall, New York",
+      "locationLink": "",
+      "band": "Beethoven's Banana Symphony Ensemble",
+      "bandLink": "",
+      "description": "Beethoven takes a fruity turn with this concert extravaganza. Prepare for the unexpected as musicians wield bananas instead of batons, and the orchestra might break into a spontaneous banana-peeling contest. A unique blend of music and silliness awaits!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "11",
+      "title": "Vivaldi's Vibrant Voyage",
+      "category": "Concert",
+      "startDate": "12.11.2023",
+      "endDate": "",
+      "startTime": "17:00",
+      "location": "Elbphilharmonie, Hamburg",
+      "locationLink": "https://goo.gl/maps/WE9eBte324MmEp3R9",
+      "band": "Vivaldi's Vibrant Voyagers",
+      "bandLink": "",
+      "description": "Join our intrepid violinist on a journey through Vivaldi's vibrant soundscapes. But there's a twist—this musical adventure will be conducted entirely on a rollercoaster! Hold on tight as you experience the exhilarating ups and downs of baroque melodies."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "12",
+      "title": "Baroque Bonfire Bash",
+      "category": "Concert",
+      "startDate": "03.09.2023",
+      "endDate": "",
+      "startTime": "18:30",
+      "location": "Edinburgh Castle, Scotland",
+      "locationLink": "",
+      "band": "The Baroque Bonfire Bash Ensemble",
+      "bandLink": "",
+      "description": "Step into the medieval castle grounds for a night of baroque revelry. Our violinist will serenade you with fire-lit melodies, accompanied by jesters and fire-breathers. Expect a night filled with laughter, music, and the occasional flaming cello!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "13",
+      "title": "Mozart's Magic Carpet Ride",
+      "category": "Concert",
+      "startDate": "01.01.2022",
+      "endDate": "",
+      "startTime": "20:00",
+      "location": "Walt Disney Concert Hall, Los Angeles",
+      "locationLink": "",
+      "band": "Mozart's Magical Musicians",
+      "bandLink": "",
+      "description": "Prepare to be enchanted as Mozart's music takes flight on a magical carpet. Our violinist will soar through the concert hall, playing baroque melodies while defying gravity. It's an unforgettable spectacle that will leave you in awe and laughter!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "14",
+      "title": "Handel's Hilarious High Jinks Troupe",
+      "category": "Concert",
+      "startDate": "05.04.2021",
+      "endDate": "",
+      "startTime": "18:30",
+      "location": "Palau de la Música Catalana, Barcelona",
+      "locationLink": "",
+      "band": "Handel's Hilarious High Jinks Troupe",
+      "bandLink": "",
+      "description": "Hold on to your powdered wigs as Handel's compositions receive a hilarious twist. Our violinist will engage in a whimsical game of musical chairs, swapping instruments with the orchestra members mid-performance. Baroque merriment guaranteed!"
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "active": "1",
+      "id": "15",
+      "title": "Bach's Circus Extravaganza",
+      "category": "Concert",
+      "startDate": "01.04.2021",
+      "endDate": "",
+      "startTime": "19:00",
+      "location": "Circus Maximus, Rome",
+      "locationLink": "",
+      "band": "Bach's Circus Extravaganza Ensemble",
+      "bandLink": "",
+      "description": "Get ready for a musical spectacle under the big top! Bach's music meets the circus as acrobats swing from the ceiling and tightrope walkers balance to the rhythm of the violin. This extraordinary concert will leave you gasping, laughing, and applauding!"
+    }
+  ],
+  "agb": [
+    {
+      "sheetId": "agb",
+      "pageTitle": "Allgemeine Geschäftsbedienungen",
+      "underTitle": "für das Musiker-Portfolio von Dávid Budai",
+      "title": "Geltungsbereich",
+      "paragraph": "Diese Allgemeinen Geschäftsbedingungen (AGB) regeln das Verhältnis zwischen dem Nutzer dieser Website (im Folgenden \"Nutzer\" genannt) und Dávid Budai (im Folgenden \"Musiker\" genannt). Durch die Nutzung dieser Website akzeptiert der Nutzer diese AGB in ihrer jeweils aktuellen Fassung."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Inhalte",
+      "paragraph": "Das Musiker-Portfolio dient der Präsentation von Informationen über Dávid Budai und seiner musikalischen Tätigkeit. Die auf der Website bereitgestellten Inhalte, wie Texte, Bilder, Videos und Audiodateien, unterliegen dem Urheberrecht und dürfen ohne ausdrückliche Genehmigung des Musikers nicht kopiert, reproduziert oder anderweitig verwendet werden."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Haftungsausschluss",
+      "paragraph": "Der Musiker bemüht sich, die Inhalte der Website korrekt und aktuell zu halten. Dennoch übernimmt er keine Gewähr für die Richtigkeit, Vollständigkeit oder Aktualität der bereitgestellten Informationen. Der Musiker haftet nicht für Schäden oder Verluste, die durch die Nutzung der Website entstehen."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Externe Links",
+      "paragraph": "Die Website kann Links zu externen Websites Dritter enthalten. Der Musiker hat keinen Einfluss auf den Inhalt dieser Websites und übernimmt keine Verantwortung für deren Inhalte. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Datenschutz",
+      "paragraph": "Der Musiker erhebt und verarbeitet personenbezogene Daten des Nutzers nur im Rahmen der gesetzlichen Bestimmungen und der Datenschutzerklärung, die auf der Website verfügbar ist."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Vertragsabschluss",
+      "paragraph": "Die Website dient lediglich der Informationsbereitstellung und stellt kein bindendes Angebot dar. Ein Vertragsverhältnis zwischen dem Nutzer und dem Musiker kommt erst durch eine ausdrückliche schriftliche Vereinbarung zustande."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Änderungen der AGB",
+      "paragraph": "Der Musiker behält sich das Recht vor, diese AGB jederzeit zu ändern oder zu ergänzen. Die geänderten AGB werden auf der Website veröffentlicht und treten ab dem Zeitpunkt der Veröffentlichung in Kraft."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "Salvatorische Klausel",
+      "paragraph": "Sollten einzelne Bestimmungen dieser AGB unwirksam sein oder werden, berührt dies die Wirksamkeit der übrigen Bestimmungen nicht."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "title": "",
+      "paragraph": "",
+      "undefined": "Diese AGB unterliegen dem [einfügen Sie das anwendbare Recht ein]. Bei Streitigkeiten ist der Gerichtsstand [einfügen Sie den zuständigen Gerichtsstand ein]."
+    }
+  ],
+  "impressum": [
+    {
+      "sheetId": "impressum",
+      "pageTitle": "Impressum",
+      "underTitle": "Verantwortlich für den Inhalt dieser Website gemäß § 5 TMG:",
+      "name": "Dávid Budai",
+      "address": "Auf der Kuhlen 33",
+      "city": "Bremen",
+      "zip": "28203",
+      "email": "info@davidbudai.de",
+      "handy": "00 49 176 24842242",
+      "title": "Haftungshinweis:",
+      "paragraph": "Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "name": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "email": "",
+      "handy": "",
+      "title": "Urheberrecht:",
+      "paragraph": "Die durch den Seitenbetreiber erstellten Inhalte und Werke auf dieser Website unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen meiner schriftlichen Zustimmung. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "name": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "email": "",
+      "handy": "",
+      "title": "Hinweis auf alternative Streitbeilegung",
+      "paragraph": "Ich bin weder bereit noch verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "name": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "email": "",
+      "handy": "",
+      "title": "Hinweis auf Mitgliedschaften oder Berufsverbände",
+      "paragraph": "Ich bin Mitglied in GEMA."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "name": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "email": "",
+      "handy": "",
+      "title": "Hinweis auf Urheberrechte für Bilder oder Grafiken",
+      "paragraph": "Die auf dieser Website verwendeten Bilder und Grafiken stammen von Dávid Budai und unterliegen dem Urheberrecht."
+    },
+    {
+      "sheetId": "",
+      "pageTitle": "",
+      "underTitle": "",
+      "name": "",
+      "address": "",
+      "city": "",
+      "zip": "",
+      "email": "",
+      "handy": "",
+      "title": "Angabe der Hosting-Plattform",
+      "paragraph": "Diese Website wird gehostet von webgo GmbH."
+    }
+  ],
+  "settings": [
+    {
+      "sheetId": "settings",
+      "homepageTitle": "Franciska Hajdu",
+      "email": "info@franciskahajdu.de",
+      "emailTooltipText": "Schreib mir!",
+      "copyright": "Copyright © 2023 - Hajdu Franciska",
+      "lightTheme": "autumn",
+      "darkTheme": "halloween"
+    }
+  ],
+  "": [
+    {
+      "sheetId": "",
+      "undefined": "Státusz"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Ötlet"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Ötlet"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Megbeszélés"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Megbeszélés"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    },
+    {
+      "sheetId": "",
+      "undefined": "Kész"
+    }
+  ]
+}
