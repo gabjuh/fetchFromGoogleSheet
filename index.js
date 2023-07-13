@@ -15,21 +15,21 @@ let obj = {
 
 let driveIds = [];
 
-app.get('/image-download', async (req, res) => {
-  try {
-    // Download the images
-    for (let i = 0; i < driveIds.length; i++) {
-      const driveId = driveIds[i];
-      const response = await axios.get(`https://drive.google.com/uc?export=view&id=${driveId}`, { responseType: 'arraybuffer' });
-      const image = Buffer.from(response.data, 'binary').toString('base64');
-      obj[driveId] = image;
-    }
-    res.send('Images downloaded');
-  } catch (error) {
-    console.error('Error downloading images:', error);
-    res.status(500).send('Error downloading images');
-  }
-});
+// app.get('/image-download', async (req, res) => {
+//   try {
+//     // Download the images
+//     for (let i = 0; i < driveIds.length; i++) {
+//       const driveId = driveIds[i];
+//       const response = await axios.get(`https://drive.google.com/uc?export=view&id=${driveId}`, { responseType: 'arraybuffer' });
+//       const image = Buffer.from(response.data, 'binary').toString('base64');
+//       obj[driveId] = image;
+//     }
+//     res.send('Images downloaded');
+//   } catch (error) {
+//     console.error('Error downloading images:', error);
+//     res.status(500).send('Error downloading images');
+//   }
+// });
 
 app.get('/fetch-data', async (req, res) => {
   try {
@@ -78,10 +78,10 @@ app.get('/fetch-data', async (req, res) => {
       console.log('No more data to fetch');
 
       // Save the data as a JSON file
-      fs.writeFileSync('data.json', JSON.stringify(obj, null, 2));
+      fs.writeFileSync('data/data.json', JSON.stringify(obj, null, 2));
       
       // Save the images as a JSON file
-      fs.writeFileSync('images.json', JSON.stringify(driveIds, null, 2));
+      fs.writeFileSync('data/images.json', JSON.stringify(driveIds, null, 2));
             
       res.send(`Data fetched and saved as data.json<br><br>Last rendering: ${timeStamp}`);
     } else {
