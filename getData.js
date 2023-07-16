@@ -9,7 +9,8 @@ const tableId = process.env.TABLE_ID;
 const timeStamp = new Date().toLocaleString('de-DE', { timeZone: 'Europe/Berlin' });
 // const logDirectory = path.join(__dirname, 'data/logs');
 const today = new Date().toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin' });
-const fileName = `data/logs/log-${today}.txt`;
+const fileName = path.join(__dirname, `data/logs/log-${today}.txt`);
+// const fileName = `data/logs/log-${today}.txt`;
 // const fileName = path.join(logDirectory, `log-${today}.txt`);
 
 // Create log file if not exists
