@@ -5,3 +5,7 @@ node_modules/
 *.jpg
 *.jpeg
 *.png
+
+data/logs/*
+
+data/
