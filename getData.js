@@ -13,8 +13,11 @@ const today = new Date().toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin'
 const fileName = path.join(logDirectory, `log-${today}.txt`);
 
 // Check if the log file exists
+if (fs.existsSync(fileName)) {
+  fs.writeFileSync(fileName, '');
+}
+
 if (!fs.existsSync(logDirectory)) {
-  // fs.writeFileSync(fileName, '');
   fs.mkdirSync(logDirectory, { recursive: true });
 }
 
