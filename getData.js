@@ -7,19 +7,25 @@ const fs = require('fs');
 const openSheetApiUrl = process.env.OPEN_SHEET_API_URL;
 const tableId = process.env.TABLE_ID;
 const timeStamp = new Date().toLocaleString('de-DE', { timeZone: 'Europe/Berlin' });
-const logDirectory = path.join(__dirname, 'data/logs');
+// const logDirectory = path.join(__dirname, 'data/logs');
 const today = new Date().toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin' });
-// const fileName = `data/logs/log-${today}.txt`;
-const fileName = path.join(logDirectory, `log-${today}.txt`);
+const fileName = `data/logs/log-${today}.txt`;
+// const fileName = path.join(logDirectory, `log-${today}.txt`);
 
 // Check if the log file exists
-if (fs.existsSync(logDirectory + fileName)) {
-  fs.writeFileSync(logDirectory + fileName, '');
+// if (fs.existsSync(logDirectory + fileName)) {
+//   fs.writeFileSync(logDirectory + fileName, '');
+// }
+
+// Create log file if not exists
+if (!fs.existsSync(fileName)) {
+  fs.writeFileSync(fileName, '');
 }
 
-if (!fs.existsSync(logDirectory)) {
-  fs.mkdirSync(logDirectory, { recursive: true });
-}
+
+// if (!fs.existsSync(logDirectory)) {
+//   fs.mkdirSync(logDirectory, { recursive: true });
+// }
 
 // Messages
 
@@ -47,7 +53,6 @@ function log(sheetIds, images, success, error) {
       '\n\nFollowing images were found:\n' + images +
       '-----------------------------------------------------------------\n\n' +
       data,
-      { flag: 'a' }
     );
   });
 }
