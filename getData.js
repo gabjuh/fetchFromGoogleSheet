@@ -12,20 +12,17 @@ const today = new Date().toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin'
 const fileName = `data/logs/log-${today}.txt`;
 // const fileName = path.join(logDirectory, `log-${today}.txt`);
 
-// Check if the log file exists
-// if (fs.existsSync(logDirectory + fileName)) {
-//   fs.writeFileSync(logDirectory + fileName, '');
+// Create log file if not exists
+// if (!fs.existsSync(fileName)) {
+//   fs.writeFileSync(fileName, '');
 // }
 
 // Create log file if not exists
-if (!fs.existsSync(fileName)) {
-  fs.writeFileSync(fileName, '');
-}
-
-
-// if (!fs.existsSync(logDirectory)) {
-//   fs.mkdirSync(logDirectory, { recursive: true });
-// }
+fs.access(fileName, fs.constants.F_OK, (err) => {
+  if (err) {
+    fs.writeFileSync(fileName, ''); // Create an empty log file
+  }
+});
 
 // Messages
 
