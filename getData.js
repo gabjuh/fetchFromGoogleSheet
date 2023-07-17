@@ -1,4 +1,4 @@
-const path = require('path');
+// const path = require('path');
 const dotenv = require('dotenv');
 dotenv.config();
 const axios = require('axios');
@@ -11,7 +11,8 @@ const timeStamp = new Date().toLocaleString('de-DE', { timeZone: 'Europe/Berlin'
 const today = new Date().toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin' });
 // const fileName = path.join(__dirname, `data/logs/log-${today}.txt`);
 const currentFolder = process.env.CURRENT_FOLDER;
-const fileName = path.join(currentFolder, `data/logs/log-${today}.txt`);
+const fileName = currentFolder + `data/logs/log-${today}.txt`;
+// const fileName = path.join(currentFolder, `data/logs/log-${today}.txt`);
 // const fileName = `data/logs/log-${today}.txt`;
 // const fileName = path.join(logDirectory, `log-${today}.txt`);
 
