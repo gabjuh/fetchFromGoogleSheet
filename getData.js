@@ -9,7 +9,9 @@ const tableId = process.env.TABLE_ID;
 const timeStamp = new Date().toLocaleString('de-DE', { timeZone: 'Europe/Berlin' });
 // const logDirectory = path.join(__dirname, 'data/logs');
 const today = new Date().toLocaleDateString('de-DE', { timeZone: 'Europe/Berlin' });
-const fileName = path.join(__dirname, `data/logs/log-${today}.txt`);
+// const fileName = path.join(__dirname, `data/logs/log-${today}.txt`);
+const currentFolder = process.env.CURRENT_FOLDER;
+const fileName = path.join(currentFolder, `data/logs/log-${today}.txt`);
 // const fileName = `data/logs/log-${today}.txt`;
 // const fileName = path.join(logDirectory, `log-${today}.txt`);
 
@@ -22,6 +24,7 @@ const fileName = path.join(__dirname, `data/logs/log-${today}.txt`);
 fs.access(fileName, fs.constants.F_OK, (err) => {
   if (err) {
     fs.writeFileSync(fileName, ''); // Create an empty log file
+    console.log('Log file created: ' + fileName);
   }
 });
 
@@ -103,10 +106,10 @@ async function getData() {
       console.log('No more data to fetch');
 
       // Save the data as a JSON file
-      fs.writeFileSync('data/data.json', JSON.stringify(obj, null, 2));
+      fs.writeFileSync(currentFolder + 'data/data.json', JSON.stringify(obj, null, 2));
       
       // Save the images as a JSON file
-      fs.writeFileSync('data/images.json', JSON.stringify(driveIds, null, 2));
+      fs.writeFileSync(currentFolder + 'data/images.json', JSON.stringify(driveIds, null, 2));
             
       success = 'Data fetched and saved as data.json\n';
       console.log(lastRendering);
