@@ -118,8 +118,8 @@ async function getData() {
 
 
     } else {
-      error = 'Error fetching data:\n';
-      console.error(error, error);
+      // error = 'Error fetching data:\n';
+      // console.error(error, error);
       console.log(error);
     }
   }
